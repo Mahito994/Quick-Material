@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Material</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/beercss@5.0.3/dist/cdn/beer.min.css" rel="stylesheet" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@5.0.3/dist/cdn/beer.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.4/dist/cdn/material-dynamic-colors.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="padding">
+    <div class="background-shapes">
+        <div class="shape flower small-width small-height rotate" id="blob-1"></div>
+        <div class="shape burst extra rotate" id="blob-2"></div>
+        <div class="shape very-sunny large rotate" id="blob-3"></div>
+        <div class="shape soft-burst small-width small-height rotate" id="blob-4"></div>
+    </div>
+
+    <div class="center-align">
+        <h1 class="bold">Quick Material</h1>
+    </div>
+
+    <!-- Article 1 -->
+    <article class="border round grid">
+        <div class="s12 m6"><button class="responsive left-round" id="btn-terminal">Terminal</button></div>
+        <div class="s12 m6"><button class="responsive right-round" id="btn-terminal-admin">Terminal (Admin)</button></div>
+        <div class="s12 m6"><button class="responsive left-round" id="btn-registry">Registry</button></div>
+        <div class="s12 m6"><button class="responsive right-round" id="btn-delete-apps">Delete Apps</button></div>
+        <div class="s12 m6"><button class="responsive left-round" id="btn-device-manager">Device Manager</button></div>
+        <div class="s12 m6"><button class="responsive right-round" id="btn-taskmgr">Task Manager</button></div>
+    </article>
+
+    <!-- Article 2 -->
+    <article class="border round grid">
+        <div class="s12 m6"><button class="responsive left-round" id="btn-clear-temp">Clear Temp Files</button></div>
+        <div class="s12 m6"><button class="responsive right-round" id="btn-clear-recycle">Clear Recycle Bin</button></div>
+        <div class="s12 m6"><button class="responsive left-round" id="btn-disk-cleanup">Disk Cleanup</button></div>
+        <div class="s12 m6"><button class="responsive right-round" id="btn-clear-cache">Clear Browser cache</button></div>
+    </article>
+
+    <!-- Articel 3 -->
+    <article class="border round grid">
+        <div class="s12 m6"><button class="responsive left-round" id="btn-show-ip">Show IP</button></div>
+        <div class="s12 m6"><button class="responsive right-round" id="btn-speed-test">Speed Test</button></div>
+    </article>
+
+    <!-- Article 4 -->
+    <article class="border round grid">
+        <div class="s12 m6"><button class="responsive secondary left-round" id="exit-btn">Exit</button></div>
+        <div class="s12 m6"><button class="responsive secondary right-round" id="btn-settings">Settings</button></div>
+    </article>
+
+    <!-- CSS Dialog -->
+    <div class="overlay blur"></div>
+    <dialog id="app-dialog" class="left-align">
+        <h5 id="dialog-title" class="center-align" >Notice</h5>
+        <br>
+        <div id="dialog-text" class="center-align">Some text here</div>
+        <nav class="right-align no-space">
+            <button class="transparent link" id="dialog-close-btn">OK</button>
+        </nav>
+    </dialog>
+
+    <script src="index.js"></script>
+</body>
+</html>
