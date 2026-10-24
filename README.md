@@ -54,7 +54,7 @@ No Node.js installation is required for the pre-built release.
 1. Clone the repository
 
 ```bash
-git clone [https://github.com/Mahito994/Quick-Material.git](https://github.com/Mahito994/Quick-Material.git)
+git clone https://github.com/Mahito994/Quick-Material.git
 
 ```
 
@@ -102,7 +102,7 @@ Found a bug, have a feature request, or an idea to improve **Quick-Material**? I
 
 ### Bug Reports
 
-If you find a bug or something isn't working correctly, please open a **[GitHub Issue](https://www.google.com/search?q=https://github.com/Mahito994/Quick-Material/issues)** and describe the problem.
+If you find a bug or something isn't working correctly, please open a **[GitHub Issue](https://github.com/Mahito994/Quick-Material/issues)** and describe the problem.
 
 Try to include:
 
@@ -116,7 +116,7 @@ Have an idea for a new feature or improvement? Feel free to suggest it!
 
 You can:
 
-* Open a **[GitHub Issue](https://www.google.com/search?q=https://github.com/Mahito994/Quick-Material/issues)**
+* Open a **[GitHub Issue](https://github.com/Mahito994/Quick-Material/issues)**
 * Or contact me directly
 
 ### Contact
